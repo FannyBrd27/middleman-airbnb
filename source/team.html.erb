@@ -1,0 +1,14 @@
+<div id="team">
+  <div class="team-content">
+    <h1 class ="text-center">This template is built with <i class="fas fa-heart"></i> by</h1>
+      <ul class="list-inline text-center">
+        <% ["mjegomjego", "fannybrd27"].each do |gh_username| %>
+          <li>
+            <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle" %>
+            <h4><%= gh_username.capitalize %></h4>
+            <i class="fab fa-github"></i> <%= link_to "#{gh_username}", "http://github.com/#{gh_username}" %>
+        <% end %>
+      </ul>
+  </div>
+</div>
+
