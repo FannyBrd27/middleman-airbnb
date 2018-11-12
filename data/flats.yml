@@ -1,0 +1,24 @@
+fannybrd27:
+  name: "Fanny's Home"
+  description: "Charming room next to el Parc Guell"
+  city_name: "Barcelona, Spain"
+  city_slug: "barcelona"
+  wifi: false
+  rating: 4
+  room: 3
+mjegomjego:
+  name: "Matthieu's home"
+  description: "Amazing loft in Amsterdam"
+  city_name: "Amsterdam, Netherland"
+  city_slug: "amsterdam"
+  wifi: true
+  rating: 3
+  room: 2
+ssaunier:
+  name: "Seb's home"
+  description: "Small flat in Nantes near the train station"
+  city_name: "Nantes, France"
+  city_slug: "nantes"
+  wifi: true
+  rating: 5
+  room: 1
